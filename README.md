@@ -50,10 +50,10 @@ Git works by creating snapshots of changes to files over time. It uses a branchi
 To get started with this project, follow these steps:
 
 1. Clone this repository to your local machine.
+
    ```bash
    git clone https://github.com/your-username/learn-git-project.git
    ```
-````
 
 2. Navigate to the project directory.
 
