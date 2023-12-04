@@ -1,6 +1,3 @@
-I appreciate your feedback. Let's include the GitHub CLI installation, automatic login using `gh`, and a note about Git Bash on Windows in the README. Here's the updated version:
-
-````markdown
 # Learn Git Project
 
 ## Overview
