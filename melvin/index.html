@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Simple HTML Page</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        background-color: lightblue;
+      }
+
+      h1 {
+        background: darkblue;
+        text-align: center;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: opacityDrop 4s infinite alternate;
+      }
+      p {
+        background-color: blueviolet;
+      }
+
+      @keyframes opacityDrop {
+        from {
+          opacity: 0.2;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div>
+        <h1>Welcome to My Simple HTML Page</h1>
+      </div>
+      <div>
+        <p>This is a basic HTML page created using GitHub Copilot.</p>
+      </div>
+      <div><img src="toji.gif" alt="Animated GIF" height="500px" /></div>
+      <div>
+        <img
+          src="toji1.webp"
+          alt="Animated WEBP"
+          height="250px"
+          width="420px"
+        />
+        <img src="toji2.gif" alt="Animated GIF" height="250px" />
+      </div>
+    </main>
+  </body>
+</html>
